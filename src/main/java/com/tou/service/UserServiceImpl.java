@@ -1,11 +1,10 @@
-package service;
+package com.tou.service;
 
-import dao.UserMapper;
-import entity.User;
+import com.tou.dao.UserMapper;
+import com.tou.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.Resource;
 @Service("userService")
 public class UserServiceImpl implements UserService {
 

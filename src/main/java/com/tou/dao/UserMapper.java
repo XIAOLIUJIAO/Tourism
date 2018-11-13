@@ -1,6 +1,6 @@
-package dao;
+package com.tou.dao;
 
-import entity.User;
+import com.tou.entity.User;
 import org.apache.ibatis.annotations.Param;
 
 public interface UserMapper {

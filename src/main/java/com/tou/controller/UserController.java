@@ -1,12 +1,11 @@
-package controller;
+package com.tou.controller;
 
-import entity.User;
+import com.tou.entity.User;
 import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import service.UserService;
+import com.tou.service.UserService;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
@@ -17,7 +16,7 @@ public class UserController {
     @Resource
     private UserService userService;
 
-    @RequestMapping("login.html")
+    @RequestMapping("/login")
     public String login(@RequestParam("username")String username,
                         @RequestParam("password")String password,
                         HttpSession session, HttpRequest request){

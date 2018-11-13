@@ -3,9 +3,9 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!-- mapper表示sql语句 -->
-<mapper namespace="com.tou.dao.UserMapper">
+<mapper namespace="com.tou.com.tou.dao.UserMapper">
 
-    <select id="login" resultType="com.tou.entity.User" >
+    <select id="login" resultType="com.tou.com.tou.entity.User" >
 		select * from mmall_user where username=#{username} and
 		 password=#{password}
 	</select>

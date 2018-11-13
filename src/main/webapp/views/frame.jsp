@@ -11,6 +11,8 @@
     <title>Title</title>
 </head>
 <body>
-
+    <div>
+        <a>欢迎登陆，${user.username}！</a>
+    </div>
 </body>
 </html>
