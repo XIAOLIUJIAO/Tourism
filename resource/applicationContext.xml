@@ -18,7 +18,7 @@
 	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
 		<property value="com.mysql.jdbc.Driver" name="driverClass"/>
 
-		<property value="jdbc:mysql://localhost:3306/smbms?characterEncoding=utf-8" name="jdbcUrl"/>
+		<property value="jdbc:mysql://localhost:3306/mmall?characterEncoding=utf-8" name="jdbcUrl"/>
 
 		<property value="root" name="user"/>
 
