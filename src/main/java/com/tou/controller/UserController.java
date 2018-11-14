@@ -22,6 +22,7 @@ public class UserController {
                           @RequestParam String password,HttpSession session,
                           HttpServletRequest request){
         System.out.println(username+"---"+password);
+        System.out.println("123");
         //
         User user=userService.login(username, password);
         //int i=1/0;
